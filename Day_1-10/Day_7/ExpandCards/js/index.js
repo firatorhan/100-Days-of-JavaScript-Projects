@@ -1,5 +1,4 @@
 const panels = document.querySelectorAll(".panel");
-
 panels.forEach(panel => {
     panel.addEventListener('click', ()=> {
         removingActiveClass();
@@ -12,7 +11,6 @@ function removingActiveClass() {
         panel.classList.remove('active');
     })
 }
-
 // dark mode toggle 
 var selector = document.body;
 function modeChanger() {
